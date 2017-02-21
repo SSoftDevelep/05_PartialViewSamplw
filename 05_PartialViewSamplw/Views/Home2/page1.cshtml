@@ -1,0 +1,19 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>page1</title>
+</head>
+<body>
+    <div> 
+        @Html.Partial("_PartialFaydaliLinkler") @* Shared dısyasindaysa sorun yok*@
+        @Html.Partial("../Home/_PartialHomeLinks") @*Home altindaysa bu sekilde cagrilir*@
+    </div>
+</body>
+</html>
